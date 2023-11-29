@@ -4,10 +4,23 @@
     box-sizing: border-box;
 }
 
-
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    border: 3px solid black;
+    
+ }
+ 
+ .menu_bar{
+   border: 3px solid black;
+   
+}
 
 
 .logo {
+    border: 2px solid black;
     font-family: 'Gilroy-Bold', sans-serif; 
     font-size: 24px;
     line-height: 28px;
@@ -26,7 +39,12 @@
 
 
 .menu {
+    width: auto;
+   height: auto;
+   display: flex;
 
+    justify-content: space-around;
+    border: 3px solid black;
     border-radius: 30px;
     border: 1px;
     font-family: 'Gilroy-SemiBold', sans-serif;
@@ -37,6 +55,9 @@
     
 }
 nav ul {
+    display: flex;
+    list-style: none;
+    width: 100%;  
     list-style: none; 
     padding: 0;
     margin: 0;
@@ -66,6 +87,7 @@ nav li{
     width: 6px;
     height: 3px;
     border: 1px;
+    background-color: black;
 
 }
 
@@ -94,14 +116,16 @@ nav li{
     border: none; 
 }
 .home-meta {
-   /* width: 543px;
-   height: 374px; */
+   border: 3px solid black;
+   width: 543px;
+   height: 374px;
    border-radius: 50px;
    margin: 10px;
    
   
 }
 .title{
+    border: 2px solid black;
     width: 522px;
     height: 222px;
     font-family: Gilroy-Bold;
@@ -123,6 +147,7 @@ nav li{
    
 }
 .subtitle{
+    border: 2px solid black;
     width: 466px;
     height: 48px;
     font-family: Gilroy-Medium;
@@ -135,7 +160,7 @@ nav li{
 }
 
 .button-meta{
-  
+    border: 2px solid black;
     border-radius: 50px;
    
 
@@ -185,7 +210,7 @@ nav li{
 }
 
 .img-menu{
-   
+    border: 2px solid black;
     margin: 20px;
 
 }
