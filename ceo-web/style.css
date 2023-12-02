@@ -3,81 +3,115 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.home-page{
+   
+    display: flex;
+}
 .home{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center; 
-    border: 3px solid black;
+  
+   
     
  }
  
- .menu_bar{
-   border: 3px solid black;
-   
+.menu_bar{
+
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 375px;
+    margin-right: 375px;
+    
 }
 
 
 .logo {
-    border: 2px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+     
+}
+
+.logo-img{
+    width: 35px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.logo-text{
     font-family: 'Gilroy-Bold', sans-serif; 
     font-size: 24px;
     line-height: 28px;
-    letter-spacing: 0em;
-    padding: 10px; 
-    
-   
+    margin-left: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .logo-black {
+    
     color: #000000; 
 }
 
 .logo-orange {
+    
+    
     color: #F25822; 
 }
 
 
 .menu {
-    width: auto;
-   height: auto;
-   display: flex;
-
-    justify-content: space-around;
-    border: 3px solid black;
+    flex-shrink: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
     border-radius: 30px;
     border: 1px;
     font-family: 'Gilroy-SemiBold', sans-serif;
     font-size: 14px;
     line-height: 16px;
-    letter-spacing: 0em; 
-    margin: 10px; 
+    margin-left: 500px;
+ 
+    
     
 }
 nav ul {
+    justify-content: space-around;
+    gap: 20px;
     display: flex;
     list-style: none;
     width: 100%;  
     list-style: none; 
     padding: 0;
-    margin: 0;
+    margin-top: 11px;
 }
 nav li{
+    
     padding: 0;
     margin: 0;
 }
 
 .menu-item {
+  
     font-family: 'Gilroy-Medium', sans-serif;
     font-size: 14px;
     line-height: 16px;
     color: black; 
     text-decoration: none; 
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+   
 }
 
 
 .menu-item.orange {
-    color: #F25822; 
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   color: #F25822; 
 }
 
 
@@ -101,12 +135,10 @@ nav li{
     background: rgba(242, 88, 34, 1);
     cursor: pointer;
     border: none; 
-    padding: 10px;
-    margin: 7px;
+   
 }
 .button-text {
-    width: 66px;
-    height: 15px;
+    
     font-family: Gilroy-SemiBold;
     font-size: 12px;
     line-height: 14px;
@@ -115,19 +147,25 @@ nav li{
     background: transparent; 
     border: none; 
 }
+.container {
+    display: flex;
+    align-items: flex-start; 
+}
 .home-meta {
-   border: 3px solid black;
-   width: 543px;
-   height: 374px;
+   display: flex;
+   flex-direction: column;
    border-radius: 50px;
-   margin: 10px;
+   margin-top: 84px;
+   margin-left: 375px;
+   margin-bottom: 162px;
+   margin-right: 40.94px;
    
   
 }
+
 .title{
-    border: 2px solid black;
-    width: 522px;
-    height: 222px;
+    display: flex;
+    flex-direction: column;
     font-family: Gilroy-Bold;
     font-size: 60px;
     line-height: 70px;
@@ -136,7 +174,6 @@ nav li{
     color:  rgba(0, 0, 0, 1);
     background: none;
    
-
 }
 
 .marketing-element {
@@ -147,53 +184,42 @@ nav li{
    
 }
 .subtitle{
-    border: 2px solid black;
-    width: 466px;
-    height: 48px;
+    display: flex; 
+    flex-direction: column;
     font-family: Gilroy-Medium;
     font-size: 20px;
     line-height: 23px;
     letter-spacing: 0em;
     text-align: left;
     color: rgba(136, 136, 136, 1);
+    margin-top: 17px;
+    margin-right: 26px;
 
 }
 
 .button-meta{
-    border: 2px solid black;
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-start;
     border-radius: 50px;
+    gap: 72px; 
+    margin-top: 27px;
    
 
 }
-.button-video{
-    width: 135px;
-    height: 30px;
-    padding: 5px;
-    margin: 5px;
 
-}
+
 .button-video-text{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
     color: rgba(170, 170, 170, 1);
     background: none;
     border: none;
 
 }
-.icon-button{
-    width: 30px;
-    height: 30px;
-    border: 3px solid rgba(221, 221, 221, 1);
-    border-radius: 15px;
-    padding: 5px;
-    margin: 5px;
 
-}
-.icon-play{
-    width: 0; 
-    height: 0; 
-    border-top: 7.5px solid transparent; 
-    border-bottom: 7.5px solid transparent; 
-    border-left: 15px solid rgba(242, 88, 34, 1);
-}
+
 
 .button-start{
     display: flex;
@@ -205,12 +231,101 @@ nav li{
     background: rgba(242, 88, 34, 1);
     cursor: pointer;
     border: none; 
-    margin-top: 35px;
+    
 
 }
 
 .img-menu{
-    border: 2px solid black;
-    margin: 20px;
+  
+    margin-top: 96px;
+    margin-left: 39px;
+    margin-right: 375.94;
+
+}
+.brands{
+    display: flex;
+    align-items: center;
+    margin-top: 97px;
+    margin-left: 345px;
+    margin-right: 345px;
+    margin-bottom: 96px;
+
+
+}
+.brand-logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 48px;
+}
+.beackgound{
+
+    border: 1px solid rgba(243, 6, 6, 1)
+
+}
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 140px;
+    margin-left: 350px;
+    margin-bottom: 125px;
+    margin-right: 389px;
+    gap: 15px;
+
+
+
+}
+.features1{
+     
+    border: 1px solid rgba(102, 102, 102, 1);
+    padding: 15px;
+
+}
+.title-img{
+    margin-right: 239px;
+    margin-left: 1px;
+
+}
+.title{
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 1px;
+
+
+
+}
+.title-description{
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 17px;
+    margin-right: 61px;
+    color: rgba(102, 102, 102, 1);
+
+}
+.button-features{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    
+
+}
+.features2{
+    border: 1px solid rgba(102, 102, 102, 1);
+    padding: 15px;
+    
+
+
+}
+.features3{
+    border: 1px solid rgba(102, 102, 102, 1);
+    padding: 15px;
 
 }
