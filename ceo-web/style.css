@@ -260,18 +260,17 @@ nav li{
 }
 .beackgound{
 
-    border: 1px solid rgba(243, 6, 6, 1)
+    border: 1px solid rgb(242, 88, 34, 1)
 
 }
 .features{
+    
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin-top: 140px;
-    margin-left: 350px;
-    margin-bottom: 125px;
-    margin-right: 389px;
-    gap: 15px;
+    gap: 30px;
+    max-width: 1170px;
+    margin: 0 auto;
 
 
 
@@ -279,7 +278,7 @@ nav li{
 .features1{
      
     border: 1px solid rgba(102, 102, 102, 1);
-    padding: 15px;
+    padding: 40px 30px 25px;
 
 }
 .title-img{
@@ -288,12 +287,12 @@ nav li{
 
 }
 .title{
+   
     font-family: Gilroy-Bold;
     font-size: 24px;
     line-height: 28px;
     letter-spacing: 0em;
     text-align: left;
-    margin-top: 25px;
     margin-left: 1px;
 
 
@@ -305,7 +304,6 @@ nav li{
     line-height: 23px;
     letter-spacing: 0em;
     text-align: left;
-    margin-top: 17px;
     margin-right: 61px;
     color: rgba(102, 102, 102, 1);
 
@@ -317,15 +315,95 @@ nav li{
     
 
 }
-.features2{
-    border: 1px solid rgba(102, 102, 102, 1);
-    padding: 15px;
+
+.secation-title{
+  
+  padding: 19px; 
+  align-items: center;
+  justify-content: center;
+
+  
+}
+.title-service{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    line-height: 53px;
+    letter-spacing: 0em;
+    margin-top: 92px;
     
+    
+    
+
+}
+.title-text{
+    align-items: center;
+    justify-content: center;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(102, 102, 102, 1);
+   
+
+}
+.services{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-right: 353px;
+}
+.services-form{
+    
+    border: 1px solid rgba(102, 102, 102, 1);
+    padding: 40px 30px 25px;
+    margin-top: 70px;
+   
+    
+
+}
+.title-service-form{
+   
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-align: center;
+    margin-bottom: 22px;
+    margin-top: 21px;
+}
+.service-text{
+  
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: (170, 170, 170, 1);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 22px;
 
 
 }
-.features3{
-    border: 1px solid rgba(102, 102, 102, 1);
-    padding: 15px;
+.services-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    background: rgba(242, 88, 34, 1);
+    cursor: pointer;
+    border: none; 
+    margin-top: 39px;
+    margin-bottom: 50px;
+    margin-left: 100px;
 
 }
