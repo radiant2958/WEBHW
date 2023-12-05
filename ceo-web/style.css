@@ -10,6 +10,8 @@
 .home{
     display: flex;
     flex-direction: column;
+    width: 1170px;
+    margin: 0 auto;
   
    
     
@@ -17,13 +19,12 @@
  
 .menu_bar{
 
-    flex-shrink: 0;
+    
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-top: 40px;
-    margin-left: 375px;
-    margin-right: 375px;
+    
     
 }
 
@@ -149,15 +150,16 @@ nav li{
 }
 .container {
     display: flex;
-    align-items: flex-start; 
+    width: 1170px;
+    margin: 0 auto;
+    align-items: center;
+    gap: 45px;
 }
 .home-meta {
    display: flex;
    flex-direction: column;
    border-radius: 50px;
    margin-top: 84px;
-   margin-left: 375px;
-   margin-bottom: 162px;
    margin-right: 40.94px;
    
   
@@ -235,21 +237,12 @@ nav li{
 
 }
 
-.img-menu{
-  
-    margin-top: 96px;
-    margin-left: 39px;
-    margin-right: 375.94;
 
-}
 .brands{
-    display: flex;
-    align-items: center;
-    margin-top: 97px;
-    margin-left: 345px;
-    margin-right: 345px;
-    margin-bottom: 96px;
-
+    display: flex; 
+    width: 1200px; 
+    margin: 0 auto;
+    
 
 }
 .brand-logo{
