@@ -6,7 +6,7 @@ html {
 }
 
 .body{
-  margin: 0;
+  margin: 0
 }
 
 .header{
@@ -44,14 +44,25 @@ html {
     
 
 }
-.label{
+.home-img-brand{
+  flex: 1px;
+  
+}
+.lable{
   display: flex;
   justify-content: flex-start; 
   align-items: center; 
-  gap: 10px;
-  
+  gap: 16px;
+ 
 }
 
+
+.text-drand{
+  width: 283px;
+  height: 78px;
+ 
+
+}
 
       
 .logo-black-fatty{
@@ -98,6 +109,10 @@ html {
     display: flex;
     gap: 30px;
   
+}
+.type-menu img {
+  width: 100%; 
+  height: auto; 
 }
 .type-menu {
     display: grid;
@@ -160,14 +175,23 @@ html {
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
   grid-template-rows: auto; 
+  justify-content: center;
+
   margin-top: 96px;
-  margin-left: 230px;
-  margin-right: 230px;
-  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+
   
-    
+ 
   }
-  
+.product{
+  width: auto;
+}
+.img-product{
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
 
 .product:nth-child(2) .img-product {
     display: flex;
@@ -182,8 +206,9 @@ html {
   
 .title-price{
     
-    padding: 24px, 16px, 24px, 16px;
+    padding: 24px 16px 24px 16px;
     gap: 16px;
+    
 
 }
 .title{
@@ -197,6 +222,8 @@ html {
     font-size: 14px;
     text-align: left;
     color: gray;
+    
+   
 
   }
 .price{
@@ -207,6 +234,8 @@ html {
 
   }
   .button-products {
+  
+    height: 48px;
     width: 100%; 
     display: flex; 
     justify-content: center; 
@@ -214,12 +243,71 @@ html {
   }
   
   .button-products button {
+
     font-family: Lato;
     font-size: 16px;
     border: 1px solid rgba(241, 109, 127, 1); 
     background-color: white; 
     color: rgba(241, 109, 127, 1); 
-    padding: 14px 39px; 
     cursor: pointer;
     text-align: center; 
   }
+
+  @media screen and (min-width: 768px) and (max-width: 1439px){
+
+   .header{
+    height: 74px;
+    min-width: 768px;
+   }
+   .logo{
+    min-width: 768px;
+   }
+   .forma{
+    margin-right: 424px;
+   }
+  .header-button{
+    margin-right: 41px;
+  }
+   .brand{
+    min-width: 768px;
+   }
+
+   
+  .home-img-brand img {
+    width: 100%; 
+    height: auto; 
+  }
+  
+  .text-drand {
+    margin-right: 33px;
+  }
+
+  .logo-black-fatty {
+    font-size: 36px; 
+  }
+
+  .logo-black, .logo-orange {
+    font-size: 24px; 
+    line-height: 29px;
+  }
+  .menu{
+    min-width: 768px;
+  }
+  
+  .type-menu {
+    width: 100%; 
+  }
+
+  
+  .accesories img {
+    width: 100%; 
+    height: auto; 
+  }
+
+  .products {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr); 
+    
+  }
+ 
+}
